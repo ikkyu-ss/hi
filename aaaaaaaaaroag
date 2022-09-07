@@ -1,0 +1,4 @@
+hi = 9
+hello = 2
+what = hi multiplied by hello
+output what
