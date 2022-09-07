@@ -1,4 +1,6 @@
-hi = 9
-hello = 2
-what = hi multiplied by hello
-output what
+send 'hi = 2' to display
+receive hi from display
+send 'hello = 9' to display
+recieve hello from keyboard
+set total to hi + hello
+send total to display
