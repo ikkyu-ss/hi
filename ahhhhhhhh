@@ -1,0 +1,8 @@
+SENT "please enter the first number" TO DISPLAY
+RECEIVE firstNumber FROM KEYBOARD
+SENT "please enter the second number" TO DISPLAY
+RECEIVE secondNumher FROM KEYBOARD
+SENT "please enter the third number" TO DISPLAY
+RECEIVE thirdNumber FROM KEYBOARD
+SET total to firstNumber + secondNumber + thirdNumber / 3
+SENT total TO DISPLAY
